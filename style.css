@@ -1,0 +1,130 @@
+body{
+    background-color: rgb(224, 220, 220);
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: rgb(182, 179, 179);
+    border: rgb(36, 36, 36) solid;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    box-shadow: 2px 2px 5px black;
+}
+.div1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 100px;
+}
+.div1:hover{
+    font-size: large;
+    
+}
+.ser{
+    
+    padding: 20px;
+    margin: 20px;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border:  white solid;
+    border-radius: 10px;
+    background-color: rgb(182, 179, 179);
+    box-shadow: 2px 2px 5px black;
+}
+.mov{
+    
+    padding: 20px;
+    margin: 20px;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border:white solid;
+    background-color: rgb(182, 179, 179);;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+}
+.car{
+    
+    padding: 20px;
+    margin: 20px;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(182, 179, 179);;
+    border:white solid;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+}
+button{
+    background-color: silver; 
+    border: black solid 2px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px silver;
+    text-shadow: 1 px 1px 2px black;
+    color: black;
+    text-align: center;
+    font-size: 1rem;
+
+}
+button:hover{
+    font-size: large;
+    background-color: beige;
+}
+a{
+    color: black;
+    font-style: normal;
+}
+a:hover {
+    color: red;;
+}
+footer{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-attachment: fixed;
+    background-color: rgb(182, 179, 179);;
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+    
+}
+.a1{
+    padding-left: 20px;
+}
+.a2{
+    padding-left: 20px;
+}
+.car2{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    padding-top: 100px;
+}
+.car1{
+    padding: 20px;
+    margin: 20px;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border:  white solid;
+    border-radius: 10px;
+    background-color: rgb(71, 68, 66);
+}
+.but{
+    font-size: large;
+}
+.but:hover{
+    background-color: antiquewhite;
+    font-size: 1.5rem;
+}
